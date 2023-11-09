@@ -53,11 +53,12 @@
 .hobby-image {
   max-width: 100%;
   height: auto;
-  max-height: 200px;
+  max-height: 190px;
 }
 
 .hobby-description {
   margin-top: 10px;
-  color: #555;
+  color: black;
 }
+
 </style>

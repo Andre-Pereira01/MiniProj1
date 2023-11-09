@@ -57,6 +57,7 @@
   margin:auto;
   margin-bottom: 0px;
   max-width: auto;
+  
 }
 header {
   display: flex;
