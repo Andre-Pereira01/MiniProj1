@@ -112,13 +112,15 @@ footer {
 
 .btn-primary {
   background-color: salmon;
-  color: black;
+  color: midnightblue;
   border: none;
+  font-weight: bold;
 }
 
 .btn-primary:hover {
   background-color: tomato;
-  color: black;
+  color: midnightblue;
+  font-weight: bold;
 
 }
 </style>

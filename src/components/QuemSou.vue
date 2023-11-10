@@ -4,8 +4,7 @@
       <div class="row">
         <div class="col-md-6" style="margin-left: 60px;">
           <div class="text-center">
-            <h1 class="display-4 font-weight-bold">Quem Sou Eu?</h1>
-            <hr class="my-4">
+            <h1 class="titulo font-weight-bold">Quem Sou Eu?</h1>
           </div>
         </div>
         <div class="col-md-6" style="display: flex; align-items: center;">
@@ -13,7 +12,7 @@
             <img src="@/assets/andre.jpg" alt="André Pereira" class="img-fluid rounded-circle">
           </div>
           <div class="col-md-8" style="text-align: justify; margin-left: 120px;">
-            <p class="lead" style="max-width: 600px;">
+            <p class="texto" style="max-width: 600px;">
               Olá, o meu nome é André Pereira. Tenho 22 anos e sou de Monção (Viana Do Castelo).
               Atualmente sou estudante de mestrado em Engenharia Informática e Tecnologia Web na Universidade Aberta(UAb).
               Sou licenciado em Engenharia Informática pela Universidade de Trás-os-Montes e Alto Douro (UTAD).
@@ -21,7 +20,7 @@
               profissionalmente.
               Estou confiante nas minhas capacidades para criar sempre um bom ambiente e desenvolver um bom trabalho.
             </p>
-            <p class="lead">Entra em contato comigo: <a href="mailto:andre3699@gmail.com">andre3699@gmail.com</a></p>
+            <p class="texto">Entra em contato comigo: <a href="mailto:andre3699@gmail.com">andre3699@gmail.com</a></p>
           </div>
         </div>
       </div>
@@ -44,8 +43,8 @@ export default {
 }
 
 
-.display-4 {
-  color: #333;
+.titulo {
+  color: midnightblue;
 }
 
 .img-fluid {
@@ -55,12 +54,12 @@ export default {
 }
 
 
-.lead {
-  color: black;
+.texto {
+  color: midnightblue;
 }
 
-.lead a {
-  color: #007bff;
+.texto a {
+  color: tomato;
   /* Cor do email */
 }
 </style>

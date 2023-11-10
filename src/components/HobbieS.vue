@@ -2,31 +2,30 @@
   <div class="hobbies">
     <div class="container">
       <div class="text-center">
-        <h1 class="display-4 font-weight-bold" style="margin-left: 60px;">Os Meus Hobbies</h1>
-        <hr class="my-4">
+        <h1 class="titulo font-weight-bold">Os Meus Hobbies</h1>
+        <p class="subtitulo">(também estudo claro)</p>
       </div>
       <ul class="hobbies-list">
-        
         <li class="hobby-item">
-          <img src="@/assets/maestro.png" alt="Hobby 2" class="img-fluid hobby-image">
+          <img src="@/assets/maestro.png" alt="Apreciador Musica" class="img-fluid hobby-image">
           <p class="hobby-description">Apreciador Melómano de Música</p>
         </li>
         <li class="hobby-item">
-          <img src="@/assets/film.png" alt="Hobby 1" class="img-fluid hobby-image">
+          <img src="@/assets/film.png" alt="Amante Cinema" class="img-fluid hobby-image">
           <p class="hobby-description">Crítico Amador de Cinema</p>
         </li>
         <li class="hobby-item">
-          <img src="@/assets/filosofo.png" alt="Hobby 5" class="img-fluid hobby-image">
+          <img src="@/assets/filosofo.png" alt="politica e filosofia" class="img-fluid hobby-image">
           <p class="hobby-description">Adepto de bancada de política e filosofia</p>
         </li>
       </ul>
       <ul class="hobbies-list">
         <li class="hobby-item">
-          <img src="@/assets/beer.png" alt="Hobby 4" class="img-fluid hobby-image">
+          <img src="@/assets/beer.png" alt="Provador de cervejas" class="img-fluid hobby-image">
           <p class="hobby-description">Provador de Cervejas Indeciso</p>
         </li>
         <li class="hobby-item">
-          <img src="@/assets/basket.png" alt="Hobby 3" class="img-fluid hobby-image">
+          <img src="@/assets/basket.png" alt="basketball" class="img-fluid hobby-image">
           <p class="hobby-description">Jogador pouco nato de Basketball</p>
         </li>
         
@@ -45,7 +44,16 @@
   justify-content: space-around;
 }
 
-
+.titulo {
+  color: midnightblue;
+  margin-left: 60px;
+  margin-top: 0px;
+}
+.subtitulo{
+  color: midnightblue;
+  margin-left: 60px;
+  margin-top: 0px;
+}
 .hobby-item {
   text-align: center;
 }
@@ -58,7 +66,7 @@
 
 .hobby-description {
   margin-top: 10px;
-  color: black;
+  color: midnightblue;
 }
 
 </style>

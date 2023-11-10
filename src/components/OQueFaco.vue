@@ -4,8 +4,7 @@
       <div class="row">
         <div class="col-md-4" style="margin-left: 60px;">
           <div class="text-center">
-            <h1 class="display-4 font-weight-bold">O Que Faço?</h1>
-            <hr class="my-4">
+            <h1 class="titulo font-weight-bold">O Que Faço?</h1>
           </div>
         </div>
         <div class="col-md-8" style="display: flex; align-items: center;">
@@ -13,7 +12,7 @@
             <img src="@/assets/trompetista.jpg" alt="Trompetista" class="img-fluid rounded-circle">
           </div>
           <div class="col-md-8" style="text-align: justify;">
-            <p class="lead" style="max-width: 600px; margin-left: 120px;">
+            <p class="texto" style="max-width: 600px; margin-left: 120px;">
               Sou um aluno deste mestrado. Além dos meus estudos, sou trompetista e participo em vários projetos musicais.
               Sou trompetista integrante na Banda Musical de Monção desde 2011. Sou fundador e trompetista integrante do
               grupo Monção Brass desde 2016. Também sou trompetista integrante da charanga Algazarra desde 2018.
@@ -47,8 +46,8 @@ export default {
   padding-bottom: 200px;
 }
 
-.display-4 {
-  color: #333;
+.titulo {
+  color: midnightblue;
 
 }
 
@@ -59,6 +58,6 @@ export default {
 
 }
 
-.lead {
-  color: black;
+.texto {
+  color: midnightblue;
 }</style>
